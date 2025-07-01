@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anwar Ali | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Anwar Ali</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="resume.pdf" download>Resume</a></li>
+        <li><button id="darkToggle">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Hello, I'm Anwar 👋</h2>
+    <p>A passionate frontend developer crafting clean and modern websites.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I love coding, building cool things with JavaScript, and learning new technologies every day.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <a href="https://github.com/johndoe/portfolio" target="_blank" class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Built using HTML & CSS to showcase my work.</p>
+      </a>
+      <a href="https://github.com/johndoe/todo-app" target="_blank" class="project-card">
+        <h3>To-Do App</h3>
+        <p>A task tracker built with JS.</p>
+      </a>
+      <a href="https://github.com/johndoe/weather-app" target="_blank" class="project-card">
+        <h3>Weather App</h3>
+        <p>Real-time weather using API.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mdkzkpqb" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required/>
+      <input type="email" name="email" placeholder="Your Email" required/>
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Anwar Ali. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
