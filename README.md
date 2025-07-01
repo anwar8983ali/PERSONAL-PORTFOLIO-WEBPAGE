@@ -51,10 +51,15 @@ The primary objectives of the portfolio website were:
 
 ### JavaScript
 - Implemented a dark mode toggle button (🌙) in the navbar  
-- Used `classList.toggle()` to switch between light and dark themes  
+- Used `classList.toggle()` to switch between light and dark themes
+
+- OUTPUT-
 
 ![Image](https://github.com/user-attachments/assets/4ae7053f-8d73-4149-ac42-eebdab12da7b)
 
 ![Image](https://github.com/user-attachments/assets/1a718ead-017f-49da-ae8a-7b914e734e2c)
+
+LIVE DEMO-  
+https://anwar8983ali.github.io/PERSONAL-PORTFOLIO-WEBPAGE/
 
 
