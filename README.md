@@ -1,59 +1,58 @@
-PERSONAL PORTFOLIO WEBSITE
-COMPANY: CODETECH IT SOLUTIONS
-NAME: ANWAR ALI
-INTERN ID: CT06DG11
-DOMAIN: FRONT END DEVELOPMENT
-DURATION: 6 WEEKS
-MENTOR: NEELA SANTOSH
+💼 PERSONAL PORTFOLIO WEBSITE
+🔹 COMPANY: Codetech IT Solutions
+🔹 NAME: Anwar Ali
+🔹 INTERN ID: CT06DG11
+🔹 DOMAIN: Front-End Development
+🔹 DURATION: 6 Weeks
+🔹 MENTOR: Neela Santosh
 
-Personal Portfolio Website
 📝 Project Description
-This project was developed during my 6-week internship at Codetech IT Solutions, under the mentorship of Mr. Neela Santosh, in the domain of Front-End Development. The main goal of this project was to build a responsive Portfolio Website using HTML, CSS, and JavaScript to showcase my skills, projects, and contact information in a professional format.
+This project was developed as part of my 6-week internship at Codetech IT Solutions under the guidance of Mr. Neela Santosh in the Front-End Development domain. The main goal of the project was to design and build a fully responsive Personal Portfolio Website using HTML, CSS, and JavaScript.
+
+The website serves as a digital resume, showcasing my skills, personal information, featured projects, and a contact form — all in a clean, modern layout.
 
 🎯 Objective
-The purpose of this portfolio was to:
+The primary objectives of the portfolio website were:
 
-Introduce myself and my interests
+Introduce myself as a frontend developer
 
-Showcase featured projects with links to GitHub
+Display key projects with GitHub links
 
-Provide a resume download option
+Provide an option to download my resume
 
-Allow visitors to send messages via a contact form
+Include a contact form for easy communication
 
-Implement a responsive dark mode toggle
+Implement a dark mode feature for better user experience
 
 🧱 Technologies Used
-HTML – for building the structure of the website
+HTML5 – For building the page structure
 
-CSS – for styling the layout and components
+CSS3 – For layout styling, responsiveness, and theming
 
-JavaScript – for adding interactivity (dark mode toggle)
+JavaScript – For interactivity (dark mode toggle)
 
 🛠️ Development Process
-I began the project by structuring the page with semantic HTML5 tags, dividing it into the following sections:
+The development process included:
 
-Header with navigation links and dark mode button
+HTML
 
-Hero Section introducing myself
+Structured the website into semantic sections: Header, Hero, About, Projects, Contact, and Footer.
 
-About Me Section with a short bio
+Added navigation links and resume download functionality.
 
-Projects Section displaying project cards with links
+CSS
 
-Contact Form integrated via Formspree
+Used Flexbox and Grid for responsive layouts.
 
-Footer for copyright
+Styled elements with smooth hover effects, spacing, and shadows.
 
-The CSS was used to:
+Introduced CSS variables (--bg, --text, --primary) to manage theme colors.
 
-Center the layout using Flexbox and Grid
+JavaScript
 
-Apply hover effects and smooth transitions
+Implemented a dark mode toggle button (🌙) in the navbar.
 
-Set up color themes using CSS variables for light/dark modes
-
-The dark mode feature was added using a simple JavaScript toggle. When the moon icon is clicked, it toggles the dark class on the <body>, and changes the color scheme using CSS variables.
+Used classList.toggle() to switch between light and dark themes.
 
 javascript
 Copy
@@ -63,17 +62,30 @@ toggle.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
 🔁 Version Control
-Version control was handled using Git. I committed changes regularly and pushed the project to GitHub, which helped me track progress and maintain a clean codebase throughout development.
+All changes were managed using Git.
+I regularly committed updates and pushed code to GitHub, allowing version tracking and collaboration practices similar to real-world workflows.
 
 ✅ Outcome
-This project helped me understand:
+Through this project, I gained hands-on experience in:
 
-The importance of clean UI/UX
+Responsive web design
 
-Responsive design principles
+DOM manipulation
 
-JavaScript event handling and DOM manipulation
+CSS theming and layout systems
 
-Real-world GitHub workflows (cloning, pushing, committing)
+JavaScript-based interactivity
 
-It boosted my confidence in building web applications from scratch and gave me a professional platform to showcase my work and skills.
+Using Git and GitHub for source control
+
+It also helped me build a professional online presence and prepared me for future frontend development roles.
+
+📸 Output Screenshots
+(Replace these links with actual image URLs from your GitHub repository)
+
+
+
+
+
+🔗 Live Demo
+👉 View Live Site
