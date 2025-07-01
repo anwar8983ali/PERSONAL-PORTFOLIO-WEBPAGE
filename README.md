@@ -60,7 +60,9 @@ toggle.addEventListener("click", () => {
 });
 📸 Output Screenshots
 
+![Image](https://github.com/user-attachments/assets/4ae7053f-8d73-4149-ac42-eebdab12da7b)
 
+![Image](https://github.com/user-attachments/assets/1a718ead-017f-49da-ae8a-7b914e734e2c)
 
 
 
