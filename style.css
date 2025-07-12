@@ -43,13 +43,14 @@ nav h1 {
   font-size: 1.5rem;
 }
 
-nav ul {
+#navLinks {
   display: flex;
   list-style: none;
   gap: 1rem;
 }
 
-nav a, nav button {
+nav a,
+nav button {
   color: white;
   text-decoration: none;
   background: none;
@@ -70,7 +71,34 @@ nav a, nav button {
   right: 1rem;
 }
 
-/* HERO */
+/* Responsive Nav */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  #navLinks {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: var(--primary);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 1rem;
+  }
+
+  #navLinks.show {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Hero Section */
 #hero {
   padding: 4rem 2rem;
   text-align: center;
@@ -90,26 +118,22 @@ section {
 }
 
 .project-card {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  border-radius: 8px;
   background: var(--bg);
   color: var(--text);
-  text-decoration: none;
-  transition: transform 0.2s;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
-.project-card:hover {
-  transform: scale(1.02);
-}
-
+/* Form */
 form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 0.8rem;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -125,6 +149,7 @@ button {
   border-radius: 4px;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
@@ -132,71 +157,5 @@ footer {
   color: white;
 }
 
-/* MEDIA QUERIES */
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  #navLinks {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background: var(--primary);
-    padding: 1rem;
-    margin-top: 3rem;
-  }
-
-  #navLinks.show {
-    display: flex;
-  }
-
-  nav ul li {
-    margin: 0.5rem 1rem;
-  }
-
-  section {
-    padding: 2rem 1rem;
-  }
-
-  #hero {
-    padding: 2rem 1rem;
-  }
-
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 480px) {
-  nav h1 {
-    font-size: 1.3rem;
-  }
-
-  nav a, nav button {
-    font-size: 0.9rem;
-  }
-
-  #hero h2 {
-    font-size: 1.5rem;
-  }
-
-  #hero p {
-    font-size: 1rem;
-  }
-
-  button {
-    font-size: 1rem;
-  }
-
-  footer {
-    font-size: 0.9rem;
-  }
-}
 
 
