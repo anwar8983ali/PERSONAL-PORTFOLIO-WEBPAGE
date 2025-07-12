@@ -9,3 +9,4 @@ toggle.addEventListener("click", () => {
 menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("show");
 });
+
