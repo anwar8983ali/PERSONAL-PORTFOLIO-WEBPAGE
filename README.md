@@ -60,6 +60,6 @@ The primary objectives of the portfolio website were:
 ![Image](https://github.com/user-attachments/assets/1a718ead-017f-49da-ae8a-7b914e734e2c)
 
 LIVE DEMO-  
-https://anwar8983ali.github.io/PERSONAL-PORTFOLIO-WEBPAGE/
+https://personal-portfolio-webpage-stx7.onrender.com
 
 
