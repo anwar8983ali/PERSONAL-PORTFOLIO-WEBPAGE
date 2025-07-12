@@ -36,7 +36,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  position: relative;
 }
 
 nav h1 {
@@ -60,11 +60,14 @@ nav a, nav button {
 
 .menu-toggle {
   display: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
   background: none;
   border: none;
   color: white;
   cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 /* HERO */
@@ -135,12 +138,18 @@ footer {
     display: block;
   }
 
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   #navLinks {
     display: none;
     flex-direction: column;
     width: 100%;
     background: var(--primary);
-    padding: 1rem 0;
+    padding: 1rem;
+    margin-top: 3rem;
   }
 
   #navLinks.show {
@@ -149,11 +158,6 @@ footer {
 
   nav ul li {
     margin: 0.5rem 1rem;
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   section {
@@ -194,4 +198,5 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
